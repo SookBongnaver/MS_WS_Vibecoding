@@ -19,7 +19,7 @@
 1. [Git for Windows](https://git-scm.com/downloads/win), [Python 3.13](https://www.python.org/downloads/), [VS Code](https://code.visualstudio.com/)를 설치합니다. Python 설치 시 PATH 추가를 선택합니다.
 2. [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows)를 설치합니다.
 3. [Microsoft ODBC Driver 18 for SQL Server](https://learn.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server)를 설치합니다. 64비트 Python에는 64비트 드라이버를 사용합니다.
-4. [코딩 도구 안내](04-models-and-tools.md)에 따라 Codex CLI·GitHub Copilot·Claude Code 중 하나를 준비합니다.
+4. [도구 비교 자료](tools-comparison.md)에 따라 강사가 지정한 코딩 도구를 준비합니다.
 5. 설치 후 VS Code와 터미널을 다시 엽니다.
 
 **PowerShell에 입력**

@@ -6,16 +6,18 @@
 
 | 선택 | 역할 | 기본 경로 |
 |---|---|---|
-| 코딩 도우미 | 에이전트의 Python 코드 작성·수정 | Codex CLI, GitHub Copilot, Claude Code 중 하나 |
+| 코딩 도우미 | 앱·에이전트 코드 작성·수정 | 강사가 지정한 도구 하나 |
 | 실행 모델 | 만들어진 에이전트가 판단·도구 선택·응답 생성 | Foundry에서 배포한 함수 호출 지원 모델 하나 |
+
+도구 선택 기준과 장단점은 [실습 전 도구 비교](tools-comparison.md)를 참고하세요.
 
 Foundry가 여러 모델을 제공한다고 해서 코딩 도우미의 라이선스·인증까지 제공되는 것은 아닙니다. 코딩 도구를 Azure 모델로 연결하는 기능도 도구별 지원 여부를 별도로 확인해야 합니다.
 
-## 코딩 도구는 하나만 준비
+## 지정된 도구만 준비
 
+- **GitHub Copilot (VS Code):** [VS Code 공식 안내](https://code.visualstudio.com/docs/copilot/setup)에 따라 계정과 사용 권한을 준비합니다. 실습 폴더를 연 후 Chat에서 파일 변경이 가능한 Agent 모드를 선택합니다.
+- **GitHub Copilot CLI:** [GitHub 공식 안내](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/install-copilot-cli)에 따라 설치하고 로그인합니다. Copilot 플랜에 포함됩니다.
 - **Codex CLI:** [공식 설치 안내](https://developers.openai.com/codex/cli)와 [Windows 안내](https://developers.openai.com/codex/windows)를 따릅니다. Node.js 설치 후 PowerShell에서 `npm.cmd install -g @openai/codex`를 실행하고, 실습 폴더에서 `codex`를 실행합니다. 조직에서 승인한 계정으로 로그인합니다.
-- **GitHub Copilot:** [VS Code 공식 안내](https://code.visualstudio.com/docs/copilot/setup)에 따라 계정과 사용 권한을 준비합니다. 실습 폴더를 연 후 Chat에서 파일 변경이 가능한 Agent 모드를 선택합니다.
-- **Claude Code:** [공식 설치 안내](https://code.claude.com/docs/en/setup)에 따라 설치하고 사용 권한을 준비합니다. 실습 폴더에서 `claude`를 실행합니다.
 
 가이드의 **“코딩 도우미에 입력”** 블록은 선택한 도구의 대화창에 붙여넣습니다. 도구가 제안한 파일 변경·실행 명령은 확인 후 승인합니다. 무제한 권한 모드로 바꾸거나 조직 보안 정책을 우회하지 않습니다.
 

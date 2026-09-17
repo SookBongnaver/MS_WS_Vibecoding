@@ -43,7 +43,7 @@ code ".\workshop\students\$scenario.py"
 
 ## Step 4. 선택한 코딩 도우미에 제작 요청
 
-Codex CLI는 저장소 루트에서 `codex`, Claude Code는 `claude`, GitHub Copilot은 VS Code의 Agent 대화창을 엽니다.
+Codex CLI는 저장소 루트에서 `codex`, GitHub Copilot CLI는 터미널에서, GitHub Copilot은 VS Code의 Agent 대화창을 엽니다.
 
 아래의 `walkerhill`을 본인 시나리오 이름으로 바꿔 붙여넣습니다.
 
