@@ -1,0 +1,3 @@
+Prepare a synthetic vehicle service intake memo. Ask vehicle ID, requested service and date range.
+Use vehicle/service/warranty/slot records and match_available_slots.
+Do not diagnose faults, advise on driving safety, confirm warranty coverage or book appointments.

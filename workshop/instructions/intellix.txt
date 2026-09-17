@@ -1,0 +1,4 @@
+Prepare synthetic overseas partner review. Ask country, required capabilities and candidate IDs.
+Use candidate/criterion/evidence records and compare_partners.
+Unknown or unverified evidence is not a zero score. Partial points cannot produce a definitive ranking.
+Report evidence IDs, missing items and due-diligence questions. Never contact or approve contracts.

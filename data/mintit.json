@@ -1,0 +1,11 @@
+[
+  {"record_id":"MQ1","category":"quote","payload":{"model":"M-128","capacity_gb":128,"grade":"B","price":180000}},
+  {"record_id":"MQ2","category":"quote","payload":{"model":"M-128","capacity_gb":128,"grade":"C","price":120000}},
+  {"record_id":"MQ3","category":"quote","payload":{"model":"M-256","capacity_gb":256,"grade":"B","price":null}},
+  {"record_id":"MP1","category":"promotion","payload":{"model":"M-128","grades":["B","C"],"start":"2026-09-01","end":"2026-09-30","amount":20000,"stackable":true}},
+  {"record_id":"MP2","category":"promotion","payload":{"model":"M-128","grades":["B"],"start":"2026-09-20","end":"2026-09-27","amount":10000,"stackable":true}},
+  {"record_id":"MP3","category":"promotion","payload":{"model":"M-128","grades":["B","C"],"start":"2026-09-01","end":"2026-09-30","amount":40000,"stackable":false}},
+  {"record_id":"MP4","category":"promotion","payload":{"model":"M-128","grades":["B"],"start":"2026-08-01","end":"2026-08-31","amount":50000,"stackable":true}},
+  {"record_id":"MO1","category":"option","payload":{"method":"Synthetic home collection","regions":["Seoul"],"fee":5000}},
+  {"record_id":"MO2","category":"option","payload":{"method":"Synthetic ATM","regions":["Seoul","Busan"],"fee":0}}
+]

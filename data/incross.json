@@ -1,0 +1,9 @@
+[
+  {"record_id":"DEMO-C01","category":"campaign","payload":{"name":"Synthetic autumn campaign","goal":"Compare historical conversion efficiency; no budget execution"}},
+  {"record_id":"DEMO-C02","category":"campaign","payload":{"name":"Synthetic empty campaign","goal":"Demonstrate missing data"}},
+  {"record_id":"ID1","category":"daily","payload":{"campaign_id":"DEMO-C01","date":"2026-08-01","channel":"search","cost":100000,"impressions":10000,"clicks":200,"conversions":10,"revenue":300000}},
+  {"record_id":"ID2","category":"daily","payload":{"campaign_id":"DEMO-C01","date":"2026-08-02","channel":"search","cost":300000,"impressions":30000,"clicks":300,"conversions":15,"revenue":600000}},
+  {"record_id":"ID3","category":"daily","payload":{"campaign_id":"DEMO-C01","date":"2026-08-01","channel":"display","cost":50000,"impressions":20000,"clicks":100,"conversions":0,"revenue":0}},
+  {"record_id":"ID4","category":"daily","payload":{"campaign_id":"DEMO-C01","date":"2026-08-02","channel":"social","cost":0,"impressions":0,"clicks":0,"conversions":0,"revenue":0}},
+  {"record_id":"ID5","category":"daily","payload":{"campaign_id":"DEMO-C01","date":"2026-09-01","channel":"search","cost":1000000,"impressions":1000,"clicks":100,"conversions":10,"revenue":1000000}}
+]

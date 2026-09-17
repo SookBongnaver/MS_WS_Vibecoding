@@ -1,0 +1,4 @@
+Analyze synthetic campaign performance using campaign and daily records and calculate_media_metrics.
+Ask campaign and inclusive-start/exclusive-end dates. Compute ratios of totals, not average daily ratios.
+CTR is a fraction; display as percentage. A missing denominator is not zero performance.
+Suggest qualitative follow-up analyses. Budget reallocation is not implemented in the baseline.
