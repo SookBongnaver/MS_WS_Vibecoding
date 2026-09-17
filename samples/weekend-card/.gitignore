@@ -1,0 +1,9 @@
+data/
+__pycache__/
+.env
+.env.*
+*.local.json
+weekend-request.json
+*.py[cod]
+.test-artifacts/
+snapshot.json.partial

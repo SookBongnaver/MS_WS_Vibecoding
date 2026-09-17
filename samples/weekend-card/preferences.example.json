@@ -1,0 +1,11 @@
+{
+  "preferences": {
+    "date": "2026-09-19",
+    "mood": "mixed",
+    "duration": "half",
+    "district": "",
+    "culture_only": false,
+    "exclude_events": false,
+    "companion": "friends"
+  }
+}
