@@ -3,5 +3,7 @@ __pycache__/
 *.py[cod]
 config.local.json
 .env
+.env.*
+!.env.example
 outputs/
 .pytest_cache/

@@ -30,4 +30,4 @@
 - [Codex CLI 공식 안내](https://developers.openai.com/codex/cli)
 - [Azure SQL Database 문서](https://learn.microsoft.com/en-us/azure/azure-sql/database/)
 
-공식 문서가 최신이라는 이유만으로 서로 다른 SDK 버전의 예제를 섞지 않습니다. 워크숍의 정확한 모델·SDK·드라이버 조합과 실행 경로는 리허설 결과를 기준으로 고정합니다.
+추가 연결을 선택할 때 공식 문서에서 지원 모델·지역·인증·버전 조건을 확인합니다. 서비스 생성과 비용은 고객이 승인한 범위를 따릅니다.
