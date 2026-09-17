@@ -29,9 +29,17 @@
 - [VS Code](https://code.visualstudio.com/)
 - [Codex CLI 공식 안내](https://developers.openai.com/codex/cli)
 - [Azure SQL Database 문서](https://learn.microsoft.com/en-us/azure/azure-sql/database/)
-- [App Service·Foundry 기반 기본 참조 아키텍처](https://learn.microsoft.com/en-us/azure/architecture/ai-ml/architecture/basic-microsoft-foundry-chat) — README의 참조안은 이 공식 아키텍처를 그대로 배포한 것이 아니라 실습 주제별 간소화 제안입니다.
+- [App Service·Foundry 기반 기본 참조 아키텍처](https://learn.microsoft.com/en-us/azure/architecture/ai-ml/architecture/basic-microsoft-foundry-chat) — 시나리오별 참조안은 공식 구현의 배포본이 아니라 실습 주제별 간소화 제안입니다.
 - [Azure Functions](https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview) · [Static Web Apps](https://learn.microsoft.com/en-us/azure/static-web-apps/overview) · [Container Apps](https://learn.microsoft.com/en-us/azure/container-apps/overview)
 - [Azure Cosmos DB](https://learn.microsoft.com/en-us/azure/cosmos-db/introduction) · [Blob Storage](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction) · [AI Search의 Blob 인덱서](https://learn.microsoft.com/en-us/azure/search/search-how-to-index-azure-blob-storage)
 - [Azure Logic Apps](https://learn.microsoft.com/en-us/azure/logic-apps/logic-apps-overview) · [App Service 인증](https://learn.microsoft.com/en-us/azure/app-service/overview-authentication-authorization) · [Managed Identity](https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/overview)
 
 추가 연결을 선택할 때 공식 문서에서 지원 모델·지역·인증·버전 조건을 확인합니다. 서비스 생성과 비용은 고객이 승인한 범위를 따릅니다.
+
+## 아키텍처 이미지·아이콘
+
+각 시나리오 폴더와 `samples/weekend-card`의 `architecture.png`는 교재 표시용 이미지이며 `architecture.svg`는 편집·확대용 원본입니다. 이미지에 포함된 제품 아이콘은 [Microsoft Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/icons/)의 **Azure Public Service Icons V24**를 사용합니다.
+
+공식 지침에 따라 제품명과 아이콘을 함께 표시하고 아이콘의 색상·형태·비율을 유지했습니다. Blob Storage에는 공식 Storage Accounts 아이콘, Azure AI Search에는 배포 팩의 Cognitive Search 아이콘, Container Apps에는 Worker Container App 아이콘, 모델 추론에는 Foundry Models 아이콘을 사용합니다.
+
+Microsoft는 해당 아이콘의 아키텍처 다이어그램·교육 자료·문서 내 사용을 허용하며 그 외 권리를 보유합니다. 이 저장소의 아키텍처는 Microsoft 제품을 이용한 교육용 참조 설계이며 실제 배포·Microsoft의 별도 인증을 의미하지 않습니다.
