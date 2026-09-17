@@ -29,5 +29,9 @@
 - [VS Code](https://code.visualstudio.com/)
 - [Codex CLI 공식 안내](https://developers.openai.com/codex/cli)
 - [Azure SQL Database 문서](https://learn.microsoft.com/en-us/azure/azure-sql/database/)
+- [App Service·Foundry 기반 기본 참조 아키텍처](https://learn.microsoft.com/en-us/azure/architecture/ai-ml/architecture/basic-microsoft-foundry-chat) — README의 참조안은 이 공식 아키텍처를 그대로 배포한 것이 아니라 실습 주제별 간소화 제안입니다.
+- [Azure Functions](https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview) · [Static Web Apps](https://learn.microsoft.com/en-us/azure/static-web-apps/overview) · [Container Apps](https://learn.microsoft.com/en-us/azure/container-apps/overview)
+- [Azure Cosmos DB](https://learn.microsoft.com/en-us/azure/cosmos-db/introduction) · [Blob Storage](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction) · [AI Search의 Blob 인덱서](https://learn.microsoft.com/en-us/azure/search/search-how-to-index-azure-blob-storage)
+- [Azure Logic Apps](https://learn.microsoft.com/en-us/azure/logic-apps/logic-apps-overview) · [App Service 인증](https://learn.microsoft.com/en-us/azure/app-service/overview-authentication-authorization) · [Managed Identity](https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/overview)
 
 추가 연결을 선택할 때 공식 문서에서 지원 모델·지역·인증·버전 조건을 확인합니다. 서비스 생성과 비용은 고객이 승인한 범위를 따릅니다.

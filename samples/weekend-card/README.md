@@ -31,6 +31,26 @@
 
 웹앱을 켰다고 AI나 알림이 자동 연결되지 않습니다. **웹·공개 데이터 적재는 실제 실행했습니다. 모델·Teams·Discord는 연결 코드를 제공하며, 실제 고객 연결·발송은 아직 수행하지 않았습니다.** 테스트의 알림 응답은 모의입니다.
 
+### 서비스 흐름과 Azure 확장 참조
+
+**서비스 흐름:** 공개 데이터 수집 → 날짜·취향별 코스 제안 → 장소 고정·재추천 → 알림 초안 확인 → 승인 후 채널 전송 → 공식 링크에서 사용자 예약.
+
+```mermaid
+flowchart LR
+    P["서울 공공데이터 API"] --> F["Azure Functions<br/>주기·수동 수집"]
+    F --> D[("Azure Cosmos DB<br/>장소·행사·출처")]
+    U["사용자"] --> A["Azure App Service<br/>코스 화면·에이전트 API"]
+    A <-->|조건별 후보 조회| D
+    A -.->|AI 추천을 사용할 때| M["Microsoft Foundry<br/>모델 추론"]
+    M -.-> A
+    A --> C{"알림 내용·수신처<br/>사용자 승인"}
+    C -->|승인| L["Azure Logic Apps<br/>알림 전달"]
+    L --> T["Teams 또는 Discord"]
+    A --> B["공식 안내·예매 링크<br/>사용자가 예약"]
+```
+
+**현재 구현과의 차이:** 현재 코드는 로컬 Python·SQLite이며 위 Azure 리소스에 배포된 것이 아닙니다. Cosmos DB는 다양한 장소·행사 문서 저장, Functions는 수집, App Service는 화면·API, Logic Apps는 Teams 커넥터 또는 승인된 Discord HTTPS 전송을 맡기는 확장안입니다. 자동 예약은 포함하지 않습니다.
+
 ## 1. 먼저 웹앱 실행
 
 저장소를 내려받고 최상위 폴더의 터미널에서:
