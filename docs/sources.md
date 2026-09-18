@@ -36,6 +36,15 @@
 
 추가 연결을 선택할 때 공식 문서에서 지원 모델·지역·인증·버전 조건을 확인합니다. 서비스 생성과 비용은 고객이 승인한 범위를 따릅니다.
 
+## 워크숍 운영 방식 참고
+
+| 참고 자료 | 반영한 운영 원칙 | 적용 범위 |
+|---|---|---|
+| [Multi Harness 실습](https://github.com/HakjunMIN/multiharness-ghcp) | 환경 사전 점검·파일 기반 다음 단계 안내·재현 가능한 인계·독립 검토 | 기존 교재와 문서 양식에 경량 적용; 고정 기술 스택·외부 스킬·다중 하네스 전환은 필수화하지 않음 |
+| [HIRA Billing Copilot](https://github.com/t-hajongkim/hira-billing-copilot) | 업무 요청·자동 처리·사람의 승인 구분, 입력·조작·기대 결과 중심 실습 | 주말 한 장 시연 안내에 적용; 의료 규정·판정 코드·데이터는 반입하지 않음 |
+
+공개 자료의 운영 방식을 참고하여 교재를 작성했으며 해당 저장소의 코드·스킬을 복제하거나 실행하지 않습니다.
+
 ## 아키텍처 이미지·아이콘
 
 각 시나리오 폴더와 `samples/weekend-card`의 `architecture.png`는 교재 표시용 이미지이며 `architecture.svg`는 편집·확대용 원본입니다. 이미지에 포함된 제품 아이콘은 [Microsoft Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/icons/)의 **Azure Public Service Icons V24**를 사용합니다.
