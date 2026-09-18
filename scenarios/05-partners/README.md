@@ -1,6 +1,6 @@
 # 05. 해외 파트너 검토
 
-[워크숍 개요](../../README.md) · [아키텍처 원본 SVG](architecture.svg)
+[Workshop 개요](../../README.md) · [아키텍처 원본 SVG](architecture.svg)
 
 ## 업무 범위
 

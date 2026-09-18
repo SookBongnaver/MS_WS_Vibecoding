@@ -1,6 +1,6 @@
 # 04. 캠페인 성과 분석
 
-[워크숍 개요](../../README.md) · [아키텍처 원본 SVG](architecture.svg)
+[Workshop 개요](../../README.md) · [아키텍처 원본 SVG](architecture.svg)
 
 ## 업무 범위
 
